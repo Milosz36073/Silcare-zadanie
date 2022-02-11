@@ -30,9 +30,9 @@
               <td>'. $invoice->number.'</td>
               <td>'. $invoice->buyer_name .'</td>
               <td>'. $invoice->seller_city.'</td>
-              <td>'. $invoice->price_net.'</td>
-              <td>'. $invoice->price_tax.'</td>
-              <td>'. $invoice->price_gross.'</td>
+              <td>'. $invoice->price_net.' zł</td>
+              <td>'. $invoice->price_tax.' zł</td>
+              <td>'. $invoice->price_gross.' zł</td>
               
               </tr>';
             }
